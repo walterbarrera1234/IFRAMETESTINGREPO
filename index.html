@@ -2,19 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Weather Power BI Dashboard</title>
-</head>
-<body style="font-family: sans-serif; text-align: center; padding: 2rem;">
-  <h1>Weather Dashboard</h1>
-  <p>This dashboard uses Open-Meteo API data visualized with Power BI.</p>
+  <title>Embedded Power BI Report</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+      background-color: #f5f5f5;
+    }
 
-  <iframe title="Power BI Weather Dashboard" width="1000" height="700"
-    src="<iframe title="PBITESTWBESITE" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=7f3cea23-fcb5-400d-b795-e6130b6734ed&autoAuth=true&ctid=867a7c5c-7fc9-472f-907f-13afa26324f4" frameborder="0" allowFullScreen="true"></iframe>"
-    frameborder="0" allowfullscreen="true">
+    h1 {
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    iframe {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Power BI Embedded Report</h1>
+
+  <iframe 
+    title="PBITESTWBESITE" 
+    width="600" 
+    height="373.5" 
+    src="https://app.powerbi.com/view?r=eyJrIjoiZjIwZjk0ZmQtYmZlMC00MmY5LWFlNTYtNjE1ZjIwNWEyODk4IiwidCI6ImZkNTIxMDQyLWRjYjUtNGY1Ny04OTg4LTFiNmZiMTNlYzgxYyIsImMiOjJ9" 
+    frameborder="0" 
+    allowFullScreen="true">
   </iframe>
 
-  <p style="margin-top: 2rem;">
-    Built by Ezequiel Barrera using Python + Power BI + GitHub Pages
-  </p>
 </body>
 </html>
